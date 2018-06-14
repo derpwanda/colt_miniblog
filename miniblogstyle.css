@@ -21,7 +21,7 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
-div {
+h5, h2, p, hr {
   margin: 15px;
 }
 
