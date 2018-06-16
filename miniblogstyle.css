@@ -1,20 +1,6 @@
-/*
-youll need to set body width
-
-body border color: #bdc3c7
-date color: #3498db
-h2 color: #2c3e50
-
-font: source sans pro
-
-left blockquote on first paragraph one of every post
-remember paragraph margins
-uppercase date
-letter spacing in date
-
-add hr element for thin line (google: hr styles)
-*/
-
+/*set body width,body border color: #bdc3c7
+date color: #3498db,h2 color: #2c3e50
+font: source sans pro*/
 body {
   margin: 20px 20% 20px 20%;
   border: 15px solid #bdc3c7;
@@ -25,18 +11,27 @@ h5, h2, p, hr {
   margin: 15px;
 }
 
+/*uppercase date
+letter spacing in date*/
 h5 {
   color: #3498db;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+
 }
 
 h2 {
   color: #2c3e50;
 }
 
+/*left blockquote on first paragraph one of every post
+remember paragraph margins*/
 p:nth-of-type(1){
   border-left: 5px solid #bdc3c7;
+  padding-left: 5px;
 }
 
+/*add hr element for thin line (google: hr styles)*/
 hr {
    border: 0;
    height: 0;
